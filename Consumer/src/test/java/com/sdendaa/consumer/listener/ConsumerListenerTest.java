@@ -25,7 +25,9 @@ public class ConsumerListenerTest {
 	@Test
 	public void test() {
 		ConsumerListener listener = new ConsumerListener();
+		
 		listener.onMessage(message);
+		
 		assertNull(message);
 	}
 
